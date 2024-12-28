@@ -1,0 +1,58 @@
+body{
+  background-color: #074173;
+}
+.center-div{
+  background-color: white;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 50px;
+}
+.textbox-style{
+  padding: 4px 0;
+  border:2px double green;
+  border-radius: 10px;
+}
+.margin-buttom-12{
+  margin-bottom: 12px;
+}
+#errMsg{
+  color:red;
+}
+button{
+  border:0;
+  border-radius: 40px;
+  font-size: 13pt;
+  padding: 5px 15px;
+  background-color: #074173;
+  color:white;
+}
+.logout{
+  border:0;
+  border-radius: 40px;
+  font-size: 13pt;
+  padding: 5px 15px;
+  background-color: #074173;
+  color:white;
+  display: inline;
+  position: relative;
+  bottom: 200px;
+  left: 300px;
+}
+button:hover{
+  background-color: white;
+  color:black;
+  border: 1px solid #074173;
+}
+.switch:hover{
+  color:blue;
+}
+#register-portal,#portal,#depoist-portal,#withdraw-portal,#transfer-portal{
+  display: none;
+}
+h3,h4{
+  display: inline-block;
+}

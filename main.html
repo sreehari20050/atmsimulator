@@ -1,0 +1,90 @@
+<html>
+<head>
+  <title>ABC BANK</title>
+  <link rel="stylesheet" href="main.css">
+  <script type="module" src="main.js"></script>
+  
+</head>
+<body >
+  <div class="center-div">
+    <h1>Alphabet BANK</h1>
+
+    <div id="login-portal">
+      <h3>Login</h3><br>
+      <label>Account no:</label><br>
+      <input type="text" id="lAccNo" class="textbox-style margin-buttom-12" required><br>
+      <label>Pin no:</label><br>
+      <input type="text" id="lAccPin" class="textbox-style margin-buttom-12" required><br>
+      <button id="login-btn" class="margin-buttom-12">Login</button><br>
+      <label id="swithToReg" class="switch" style="text-align: center; text-transform: capitalize;" >Don't have an account? Register</label>
+    </div>
+
+    <div id="register-portal">
+      <h3>Register</h3><br>
+      <label>Name:</label><br>
+      <input type="text" id="rAccName" class="textbox-style margin-buttom-12" required><br>
+      <label>Account no:</label><br>
+      <input type="text" id="rAccNo" class="textbox-style  margin-buttom-12" required><br>
+      <label>Pin no:</label><br>
+      <input type="text" id="rAccPin" class="textbox-style  margin-buttom-12" required><br>
+      <label>Confirm Pin no:</label><br>
+      <input type="text" id="rConAccPin" class="textbox-style  margin-buttom-12" required><br>
+      <button id="register-btn" class="margin-buttom-12">Register</button><br>
+      <label id="swithToLogin" class="switch" style="text-align: center; text-transform: capitalize;">Login</label>
+    </div>
+
+    <div id="portal">
+      <label id="userName">....</label><br>
+      <label id="totalBal">....</label><br>
+
+      <div id="depoist-portal">
+        <button class="logout" onclick="window.location.reload();">Logout</button><br>
+        <h4>Depoist</h4><br>
+        <label>Enter Amount:</label><br>
+        <input type=text id="depoist-amt" class="textbox-style margin-buttom-12" required><br>
+        <button id="dep-submit">Depoist</button><br>
+      </div>
+
+      <div id="withdraw-portal">
+        <button class="logout" onclick="window.location.reload();">Logout</button><br>
+        <h4>withdraw</h4><br>
+        <label>Enter Amount:</label><br>
+        <input type=text id="withdraw-amt" class="textbox-style  margin-buttom-12" required><br>
+        <button id="wit-submit">Withdraw</button><br>
+      </div>
+
+      <div id="transfer-portal">
+        <button class="logout" onclick="window.location.reload();">Logout</button><br>
+        <h4>Transfer</h4><br>
+        <label>Enter Amount:</label><br>
+        <input type=text id="transfer-amt" class="textbox-style  margin-buttom-12" required><br>
+        <label>Enter transfer Account no:</label><br>
+        <input type=text id="transfer-acc-no" class="textbox-style  margin-buttom-12" required><br>
+        <button id="trans-submit">Transfer</button><br>
+      </div>
+      <div id="online-payment">
+        <button class="logout" onclick="window.location.reload();">Logout</button><br>
+        <h3>Online Payments</h3><br>
+        <label>Select Payment Type:</label><br>
+        <select id="payment-type" class="textbox-style margin-bottom-12">
+          <option value="tax">Tax</option>
+          <option value="electricity">Electricity Bill</option>
+          <option value="water">Water Tax</option>
+        </select><br>
+        <button id="make-payment-btn" class="margin-bottom-12">Payment</button><br>
+
+      </div>
+      
+
+      <div id="options">
+      <h3>Please select an option</h3><br>
+      <button id="depoist-btn">Depoist</button>
+      <button id="withdraw-btn">Withdraw</button>
+      <button id="transfer-btn">Transfer</button>
+      <button id="bill-btn">Bill</button>
+      
+      </div>
+    </div>
+
+    </div>
+  </div>
